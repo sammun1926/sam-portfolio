@@ -10,10 +10,13 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi There, </h2>
-          <h2>Welcome to the los Porlos Hermanos family</h2>
-          <h1>My Name Is SAM but you can call me PAPS!</h1>
+          <h2>Hi There,I'm Sam Maina </h2>
+          <h1> A <spam>Software Engineer</spam></h1>
+          <h3>Based in Kenya</h3>
         </div>
+        <a href="#portfolio">
+          <img src="assets/down2.png" alt=""/>
+          </a>
       </div>
 
         
