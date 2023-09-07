@@ -1,5 +1,5 @@
 .intro{
-    background-color: white;
+    background-color: #E7EDF0;
     display: flex;
     
     .left{
@@ -10,15 +10,11 @@
         .imgContainer{
             width: 700px;
             height:900px;
-            background-color:black;
+            background-color:#E7EDF0;
             border-radius: 100%;
             display: float;
             align-items:flex-end ;
             justify-content:center;
-            float: left;
-            
-          
-
         }
 
         img{
@@ -52,30 +48,26 @@
 
             }
             h3{
-                font-size: 30px;
+                font-size: 20px;
+                color: brown;
             }
 
+           
+        
+        }
             a{
                 position: absolute;
-                bottom: 10px;
+                bottom:10px;
                 left: 40%;
 
                 img{
-                    width: 10px;
-                    animation: arrowBlink 2s infinite;
-
+                    width: 30px;
                 }
-                @keyframes arrowBlink{
-                    100%{
-                        opacity: 0;
-                    }
-                }
+            }    
             }
+        
             
-            spam{
-                color: crimson;
             }
-        }
+    
 
-    }
-} 
+    
