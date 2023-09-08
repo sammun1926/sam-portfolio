@@ -52,7 +52,25 @@
                 color: brown;
             }
 
-           
+           /* Assuming you want to style social icons under .social-icons class */
+
+.social-icons {
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    gap: 10px; /* Spacing between icons */
+  }
+  
+  .social-icons svg {
+    width: 30px; /* Adjust the icon size as needed */
+    height: 30px; /* Adjust the icon size as needed */
+    color: #000; /* Icon color */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .social-icons svg:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
         
         }
             a{
@@ -63,7 +81,8 @@
                 img{
                     width: 30px;
                 }
-            }    
+            } 
+               
             }
         
             
